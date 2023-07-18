@@ -29,7 +29,6 @@ func TestGetAPIKey(t *testing.T) {
 			outStr: "",
 			outErr: "no authorization header included",
 		},
-		
 	}
 
 	for _, tc := range tests {
