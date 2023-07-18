@@ -25,4 +25,4 @@ You do *not* need to set up a database or any interactivity on the webpage yet. 
 *Tip: Don't make random changes to the README*
 
 ## Code Coverage
-![code coverage badge](https://github.com/wrigri/learn-cicd-starter/actions/workflows/ci/badge.svg)
+![code coverage badge](https://github.com/wrigri/learn-cicd-starter/workflows/ci/badge.svg)
