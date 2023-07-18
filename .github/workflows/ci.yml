@@ -33,8 +33,14 @@ jobs:
               
           - name: Check out code
             uses: actions/checkout@v3
+
+          - name: Install Staticcheck
+            run: go install honnef.co/go/tools/cmd/staticcheck@latest
     
           - name: Check Formatting
             run: test -z $(go fmt ./...)
+
+          - name: Run Staticcheck
+            run: staticcheck ./...
         
     
